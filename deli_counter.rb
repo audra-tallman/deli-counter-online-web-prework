@@ -8,6 +8,8 @@ def line (katz_deli)
   current_line = "The line is currently:"
   katz_deli.each.with_index(1) do |person, i|
     current_line <<" #{i}. #{person}"
+    current_line.to_a
+    binding.pry
   end
   puts current_line
   end
