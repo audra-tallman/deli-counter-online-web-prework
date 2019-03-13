@@ -9,9 +9,10 @@ def line (katz_deli)
   current_line = "The line is currently:"
   katz_deli.each.with_index(1) do |person, i|
     current_line <<" #{i}. #{person}"
-    binding.pry
+    new_line << current_line
   end
   puts new_line
+  binding.pry
   end
 end
 
