@@ -22,6 +22,6 @@ def now_serving(katz_deli)
   katz_deli.empty? ? (puts "There is nobody waiting to be served!") : (puts "Currently serving #{katz_deli.first}.")
 end
  
-now_serving(["andrew", "irwin", "eunice"])
-binding.pry   
+# now_serving(["andrew", "irwin", "eunice"])
+# binding.pry   
     
