@@ -27,6 +27,6 @@ def now_serving(katz_deli)
  end
 end
 
-nowServing(["andrew", "irwin", "eunice"])
+now_serving(["andrew", "irwin", "eunice"])
 binding.pry   
     
