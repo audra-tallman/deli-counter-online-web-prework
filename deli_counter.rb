@@ -26,6 +26,7 @@ def now_serving(katz_deli)
   katz_deli.shift
  end
 end
+
 nowServing(["andrew", "irwin", "eunice"])
 binding.pry   
     
