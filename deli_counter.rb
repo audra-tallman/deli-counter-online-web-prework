@@ -19,11 +19,9 @@ def take_a_number (katz_deli, name)
 end  
 
 def now_serving(katz_deli)
-  if katz_deli.empty? "There is nobody waiting to be served!"
- else puts "Currently serving #{katz_deli.first}."
- end
+  katz_deli.empty? ? (puts "There is nobody waiting to be served!") : (puts "Currently serving #{katz_deli.first}.")
 end
-
+ 
 now_serving(["andrew", "irwin", "eunice"])
 binding.pry   
     
